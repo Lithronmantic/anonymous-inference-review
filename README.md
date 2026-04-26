@@ -1,6 +1,6 @@
-# Ours Method Package
+# DAVA AND MLPR
 
-This package contains the runtime code for the proposed method only.
+This package contains the runtime code for the proposed method.
 
 ## Included
 
