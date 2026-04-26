@@ -22,18 +22,18 @@ This package contains the runtime code for the proposed method only.
 
 - `scripts/strong_trainer.py`
 - `scripts/eval_enhanced.py`
-- `configs/default_eswa_retry5_16f_scaled.yaml`
+- `configs/config.yaml`
 
 ## Training
 
 ```bash
-python scripts/strong_trainer.py --config configs/default_eswa_retry5_16f_scaled.yaml --output outputs/run_ours
+python scripts/strong_trainer.py --config configs/config.yaml --output outputs/run_ours
 ```
 
 ## Evaluation
 
 ```bash
-python scripts/eval_enhanced.py --config configs/default_eswa_retry5_16f_scaled.yaml --checkpoint outputs/run_ours/checkpoints/best_f1.pth --output outputs/eval_ours
+python scripts/eval_enhanced.py --config configs/config.yaml --checkpoint outputs/checkpoints/best_f1.pth --output outputs/eval_ours
 ```
 
 ## Notes
