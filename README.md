@@ -5,7 +5,7 @@ This package contains the runtime code for the proposed method.
 ## Included
 
 - model definition
-- DAVA/CAVA alignment module
+- DAVA alignment module
 - MIL head
 - MLPR reweighting
 - EMA teacher-student training
