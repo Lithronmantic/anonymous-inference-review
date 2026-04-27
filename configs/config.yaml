@@ -10,9 +10,9 @@ seed: 42
 
 data:
   data_root: ""
-  labeled_csv: "./train_labeled_25.csv"
+  labeled_csv: "./train_labeled.csv"
   val_csv: "./val.csv"
-  unlabeled_csv: "./train_unlabeled_25.csv"
+  unlabeled_csv: "./train_unlabeled.csv"
   meta_val_csv: "./meta_val.csv"
   num_classes: 12
   class_names:
